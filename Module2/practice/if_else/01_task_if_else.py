@@ -4,3 +4,8 @@
 
 number = float(input())  # Считываем вещественное число
 
+b=(number+5)%10 
+if b==0:
+ print("да")
+else:
+    print("нет")
